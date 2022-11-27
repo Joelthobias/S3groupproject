@@ -23,7 +23,9 @@ let selectSem=(sem)=>{
 
     if(sem==1){
         location.href=('./s1.html')
-    }else{
+    }else if(sem==2){
         location.href=('./s2.html')
+    }else{
+        location.href=('./s3.html')
     }
 }
